@@ -5,7 +5,10 @@
 <img src="https://github-readme-stats.vercel.app/api?username=sansxpl&show_icons=true&theme=github_dark&title_color=FF6E96&text_color=dee2ff&icon_color=BD93F9" align=right />
 
 > `Name` **Surya Hadini .S**
-> ![Name](https://img.shields.io/badge/Name-Surya-green.svg)
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
 
 > `Live In` **West Java, Indonesia**
 
