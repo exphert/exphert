@@ -6,7 +6,7 @@
   <table>
         <tbody>
           <tr>
-            <td>Name</td>
+            <td>`name`</td>
             <td> Surya Hadini .S</td>
           </tr>
           <tr>
