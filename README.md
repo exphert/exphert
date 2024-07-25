@@ -2,8 +2,23 @@
 <div>
 <img width="256" src="./label/uwu.png" align=left />
 <br/>
+<img src="./label/aboutme.png" width="488" />
 <br/>
 <br/>
 <br/>
+
+- Name **Reidho Satria** / **レイドー・サトリア**
+
+- Live in **South Sumatra, Indonesia**
+
+- Studying [**Junior Back-End Developer**](https://dicoding.com)
+
+- Familiar with **GNU/Linux** and **FreeBSD**
+
+- Good with **JavaScript** , **TypeScript** , **PHP** , **Go** , and **Python**
+
+- Have high experience with **Photoshop** and **CorelDRAW**
+  
+- Understand 日本語, Bahasa Indonesia, Bahasa Melayu, and English
   
 </div>
