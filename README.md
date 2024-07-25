@@ -6,7 +6,7 @@
 
 | Variable | Value                |
 | :-------- | :------------------------- |
-| `api_key` | **Required**. Your API key |
+| `Name` | **Surya Hadini .S** |
 
 > `Name` **Surya Hadini .S**
 
