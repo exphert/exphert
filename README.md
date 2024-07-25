@@ -3,7 +3,9 @@
 <img width="256" src="./label/uwu.png" align=left />
 <img src="./label/aboutme.png" width="512" />
 </br>
-```php $Name = 'Surya Hadini .S'; ```
+```php
+$Name = 'Surya Hadini .S'; 
+```
 
 - Live in **South Sumatra, Indonesia**
 
