@@ -6,9 +6,8 @@
 
 > `Name` **Surya Hadini .S**
 
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
+| :-------- | :------------------------- |
+| `name` | **Surya Hadini .S** |
 
 > `Live In` **West Java, Indonesia**
 
