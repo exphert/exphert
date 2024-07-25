@@ -1,7 +1,7 @@
 <img src="./label/welcome.png" width="100%" alt="welcome" border="0"/>
-<div align=left>
-<img src="./label/aboutme.png" width="320" />
-  <table>
+<div>
+<img src="./label/aboutme.png" width="320" align=center />
+  <table align=left>
         <tbody>
           <tr>
             <td>Name</td>
