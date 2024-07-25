@@ -4,18 +4,11 @@
 <img src="./label/githubstats.png" width="320" align=right />
 <img src="https://github-readme-stats.vercel.app/api?username=sansxpl&show_icons=true&theme=github_dark&title_color=FF6E96&text_color=dee2ff&icon_color=BD93F9" align=right />
 
-| Variable | Value                |
-| :-------- | :------------------------- |
-| `Name` | **Surya Hadini .S** |
+> Name **Surya Hadini .S**
 
-> `Name` **Surya Hadini .S**
+> Live In **West Java, Indonesia**
 
-| :-------- | :------------------------- |
-| `name` | **Surya Hadini .S** |
-
-> `Live In` **West Java, Indonesia**
-
-> `Studying` **Fullstack Developer, CyberSecurity**
+> Studying **Fullstack Developer, CyberSecurity**
   
 </div>
   
