@@ -2,11 +2,7 @@
 <div>
 <img width="256" src="./label/uwu.png" align=left />
 <img src="./label/aboutme.png" width="512" />
-<br/>
-<br/>
-<br/>
-
-- Name **Reidho Satria** / **レイドー・サトリア**
+```php ["Name    " => "Surya Hadini .S"], ```
 
 - Live in **South Sumatra, Indonesia**
 
