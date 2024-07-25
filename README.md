@@ -4,10 +4,10 @@
 </br>
 <img src="https://github-readme-stats.vercel.app/api?username=sansxpl&hide_border=true&hide_title=true&show_icons=true&theme=github_dark&title_color=FF6E96&text_color=dee2ff&icon_color=BD93F9" />
 </div>
-<img src="./label/aboutme.png" width="320" />
 
+<div width="488" align=left >
+<img src="./label/aboutme.png" width="320" />
 </br>
- 
 
 > Hi, I'm **Surya Hadini .S**\
 > Live In **West Java, Indonesia**\
@@ -16,6 +16,7 @@
 > My Skill **HTML, CSS, JavaScript, PHP, Python, Java, C/C++**\
 > Understand **Bahasa Indonesia, Sundanese, English**
 
+</div>
 
 </br>
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=sansxpl&show_icons=true&theme=github_dark&hide_border=true&title_color=FF6E96&text_color=dee2ff&icon_color=BD93F9&include_all_commits=true&count_private=false&layout=compact" align=right />
