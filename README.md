@@ -1,9 +1,9 @@
 <img src="./label/welcome.png" width="100%" alt="welcome" border="0"/>
-<div>
+<div align=center>
 <img width="270" src="./label/uwu.png" align=left />
 <img src="./label/aboutme.png" width="320" />
 </br>
-  <table align=right>
+  <table>
         <tbody>
           <tr>
             <td>Name</td>
