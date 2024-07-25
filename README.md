@@ -1,7 +1,7 @@
 <img src="./label/welcome.png" width="100%" alt="welcome" border="0"/>
 <div>
 <img src="./label/aboutme.png" width="320" align=center />
-  <table align=left>
+  <table>
         <tbody>
           <tr>
             <td>Name</td>
@@ -30,10 +30,8 @@
         </tbody>
         </tbody>
       </table> 
-</div>
-<div align=right>
-  <img src="./label/githubstats.png" width="320" />
-  <img src="https://github-readme-stats.vercel.app/api?username=sansxpl&show_icons=true&hide_title=true&hide_border=true&theme=dracula&text_color=dee2ff&icon_color=BD93F9" />
+  <img src="./label/githubstats.png" width="320" align=right />
+  <img src="https://github-readme-stats.vercel.app/api?username=sansxpl&show_icons=true&hide_title=true&hide_border=true&theme=dracula&text_color=dee2ff&icon_color=BD93F9" align=right />
 </div>
   
 
