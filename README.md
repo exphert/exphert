@@ -3,7 +3,7 @@
 <img width="270" src="./label/uwu.png" align=left />
 <img src="./label/aboutme.png" width="320" />
 </br>
-  <table>
+  <table align=right>
         <tbody>
           <tr>
             <td>Name</td>
