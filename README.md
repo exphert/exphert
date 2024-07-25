@@ -7,7 +7,8 @@
 > Hi, I'm **Surya Hadini .S**\
 > Live In **West Java, Indonesia**\
 > Studying **Fullstack Developer, CyberSecurity**\
-> Studying **Fullstack Developer, CyberSecurity**\
+> I'm using **Windows, Linux**\
+> Have experience with **HTML, CSS, JavaScript, PHP, Python, Java, C/C++**
 </div>
   
 
