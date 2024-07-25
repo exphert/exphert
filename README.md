@@ -8,7 +8,7 @@
 > Live In **West Java, Indonesia**\
 > Studying **Fullstack Developer, CyberSecurity**\
 > I'm using **Windows, Linux**\
-> Have experience with **HTML, CSS, JavaScript, PHP, Python, Java, C/C++**
+> My Skill is **HTML, CSS, JavaScript, PHP, Python, Java, C/C++**
 </div>
   
 
