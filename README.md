@@ -2,7 +2,7 @@
 <div>
 <img src="./label/aboutme.png" width="320" />
 <img src="./label/githubstats.png" width="320" align=right />
-<img src="https://github-readme-stats.vercel.app/api?username=sansxpl&show_icons=true&theme=dracula&text_color=dee2ff&icon_color=BD93F9&bg_color=171A22" align=right />
+<img src="https://github-readme-stats.vercel.app/api?username=sansxpl&show_icons=true&theme=dark&text_color=dee2ff&icon_color=BD93F9" align=right />
   <table>
         <tbody>
           <tr>
