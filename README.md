@@ -1,7 +1,7 @@
 <img src="./label/welcome.png" width="100%" alt="welcome" border="0"/>
 <div>
 <img width="256" src="./label/uwu.png" align=left />
-<img src="./label/aboutme.png" width="512" />
+<img src="./label/aboutme.png" />
 </br>
 ```php
 $Name = 'Surya Hadini .S'; 
