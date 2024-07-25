@@ -3,8 +3,9 @@
 <img width="256" src="./label/uwu.png" align=left />
 <img src="./label/aboutme.png" width="320" />
 </br>
+</div>
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `api_key` | `string` | **Required**. Your API key |
   
-</div>
+
