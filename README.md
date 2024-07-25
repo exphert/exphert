@@ -1,9 +1,9 @@
 <img src="./label/welcome.png" width="100%" alt="welcome" border="0"/>
-<div align=center>
+<div>
 <img src="./label/aboutme.png" width="320" />
 <img src="./label/githubstats.png" width="320" />
 </br>
-  <table>
+  <table align=left>
         <tbody>
           <tr>
             <td>Name</td>
