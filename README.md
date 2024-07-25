@@ -3,6 +3,8 @@
 <img src="./label/aboutme.png" width="320" />
 <img src="./label/githubstats.png" width="320" align=right />
 <img src="https://github-readme-stats.vercel.app/api?username=sansxpl&show_icons=true&theme=github_dark&title_color=FF6E96&text_color=dee2ff&icon_color=BD93F9" align=right />
+> [!NAME]\
+> Since the GitHub API only [allows 5k requests per hour per user account](https://docs.github.com/en/graphql/overview/resource-limitations), the public Vercel instance hosted on `https://github-readme-stats.vercel.app/api` could possibly hit the rate limiter (see [#1471](https://github.com/anuraghazra/github-readme-stats/issues/1471)). We use caching to prevent this from happening (see https://github.com/anuraghazra/github-readme-stats#common-options). You can turn off these rate limit protections by deploying [your own Vercel instance](#disable-rate-limit-protections).
   <table>
         <tbody>
           <tr>
