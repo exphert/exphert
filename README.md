@@ -23,12 +23,12 @@
 <div align=right >
 <img src="./label/pinrepository.png" width="320" />
  
-> 📗 [***sansxpl/s3x.php***](https://github.com/sansxpl/s3x.php) </br>
- Simple command-line webshell that executes commands via the HTTP request in order to avoid any WAF or IDS while bypassing disable_function.
-> 📗 [***sansxpl/s3x.php***](https://github.com/sansxpl/s3x.php) </br>
- Simple command-line webshell that executes commands via the HTTP request in order to avoid any WAF or IDS while bypassing disable_function.
-> 📗 [***sansxpl/s3x.php***](https://github.com/sansxpl/s3x.php) </br>
- Simple command-line webshell that executes commands via the HTTP request in order to avoid any WAF or IDS while bypassing disable_function.
+ 📗 [***sansxpl/s3x.php***](https://github.com/sansxpl/s3x.php) </br>
+> Simple command-line webshell that executes commands via the HTTP request in order to avoid any WAF or IDS while bypassing disable_function.
+ 📗 [***sansxpl/s3x.php***](https://github.com/sansxpl/s3x.php) </br>
+> Simple command-line webshell that executes commands via the HTTP request in order to avoid any WAF or IDS while bypassing disable_function.
+ 📗 [***sansxpl/s3x.php***](https://github.com/sansxpl/s3x.php) </br>
+> Simple command-line webshell that executes commands via the HTTP request in order to avoid any WAF or IDS while bypassing disable_function.
 
 </div>
 
