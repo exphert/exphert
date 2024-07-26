@@ -23,7 +23,7 @@
 <div align=right >
 <img src="./label/pinrepository.png" width="320" />
  
-> [***sansxpl/s3x.php ◊***](https://github.com/sansxpl/shanghai) </br>
+> [***sansxpl/shanghai ◊***](https://github.com/sansxpl/shanghai) </br>
  Shanghai is an automated bot for adding contacts to a WhatsApp group. </br>
 
 </div>
