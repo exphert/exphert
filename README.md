@@ -1,10 +1,8 @@
 <img src="./label/welcome.png" width="100%" alt="welcome" border="0"/>
-<div align=right >
-<img src="./label/uwu.png" width="280" align=center />
-<img src="./label/aboutme.png" width="320" align=left />
-</div>
+<img src="./label/uwu.png" width="280" align=right />
 <div align=left >
-
+<img src="./label/aboutme.png" width="320" />
+</br>
 > Hi, I'm **Surya Hadini .S**
 
 > Live In **West Java, Indonesia**
