@@ -22,12 +22,7 @@
 
 <div align=right >
 <img src="./label/pinrepository.png" width="320" /></br>
-<a href=https://github.com/sansxpl/S3X-Webshell>
- sansxpl/s3x.php
-<a></br>
-<p>
- s3x.php is a webshell that has many feature, and fully customizable
-<p>
+[***sansxpl/s3x.php***](https://github.com/elliottophellia/kyoko) </br>
 </br>
  
 <img src="./label/githubstats.png" width="320" align=left /></br>
