@@ -15,9 +15,8 @@
 
 > Understand **Bahasa Indonesia, Sundanese, English**
 
-</br>
-<div align=right >
-<img src="./label/pinrepository.png" width="320" />
+<div align=right ></br>
+<img src="./label/pinrepository.png" width="320" /></br>
 <a href=https://github.com/sansxpl/S3X-Webshell>
  [***sansxpl/S3X-Webshell***]()
 <a>
