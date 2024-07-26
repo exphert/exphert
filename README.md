@@ -1,18 +1,3 @@
-```php
-public static function Welcome(){
-        return "
-
-
-        ╦ ╦┌─┐┬  ┌─┐┌─┐┌┬┐┌─┐  ╔╦╗┌─┐  ╔╦╗┬ ┬  ╔═╗┬─┐┌─┐┌─┐┬┬  ┌─┐
-        ║║║├┤ │  │  │ ││││├┤    ║ │ │  ║║║└┬┘  ╠═╝├┬┘│ │├┤ ││  ├┤ 
-        ╚╩╝└─┘┴─┘└─┘└─┘┴ ┴└─┘   ╩ └─┘  ╩ ╩ ┴   ╩  ┴└─└─┘└  ┴┴─┘└─┘
-
-                                                                                                                                                                       
-        
-       ";
-    }
-```
-
 <img src="./label/welcome.png" width="100%" alt="welcome" border="0"/>
 <img src="./label/uwu.png" width="320" align=right />
 <div align=left >
