@@ -4,11 +4,16 @@
 <img src="./label/aboutme.png" width="320" />
 </br>
 
-> Hi, I'm **Surya Hadini .S**\
-> Live In **West Java, Indonesia**\
-> Studying **Fullstack Developer, CyberSecurity**\
-> I'm using **Windows, Linux**\
-> My Skill **HTML, CSS, JavaScript, PHP, Python, Java, C/C++**\
+> Hi, I'm **Surya Hadini .S**
+
+> Live In **West Java, Indonesia**
+
+> Studying **Fullstack Developer, CyberSecurity**
+
+> I'm using **Windows, Linux**
+
+> My Skill **HTML, CSS, JavaScript, PHP, Python, Java, C/C++**
+
 > Understand **Bahasa Indonesia, Sundanese, English**
 
 </div>
