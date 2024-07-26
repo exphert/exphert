@@ -25,6 +25,8 @@
  
 > [***sansxpl/shanghai ◊***](https://github.com/sansxpl/shanghai) </br>
  Shanghai is an automated bot for adding contacts to a WhatsApp group. </br>
+> [***sansxpl/easy-gitpush ◊***](https://github.com/sansxpl/easy-gitpush) </br>
+ Effortlessly push your code changes with a single script. Simplify your Git workflow and save time! </br>
 
 </div>
 <div align=center >
