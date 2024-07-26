@@ -17,7 +17,7 @@
 
 </br>
 <div align=right >
-<img src="./label/pinrepository.png" width="320" /></br>
+<img src="./label/pinrepository.png" width="320" />
 <a href=https://github.com/sansxpl/S3X-Webshell>
  [***sansxpl/S3X-Webshell***]()
 <a>
