@@ -1,7 +1,7 @@
 <img src="./label/welcome.png" width="100%" alt="welcome" border="0"/>
-<img src="./label/uwu.png" width="280" align=right />
+<img src="./label/uwu.png" width="337" align=right />
 <div align=left >
-<img src="./label/aboutme.png" width="320" />
+<img src="./label/aboutme.png" width="337" />
 </br>
 
 > Hi, I'm **Surya Hadini .S**
