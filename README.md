@@ -4,7 +4,6 @@
 <img src="./label/aboutme.png" width="320" align=left />
 </div>
 <div align=left >
-</br>
 
 > Hi, I'm **Surya Hadini .S**
 
