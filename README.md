@@ -1,8 +1,9 @@
 <img src="./label/welcome.png" width="100%" alt="welcome" border="0"/>
-<img src="./label/uwu.png" width="280" align=right />
+<img src="./label/uwu.png" width="320" align=right />
 <div align=left >
 <img src="./label/aboutme.png" width="320" />
-</br>
+</br></br>
+ 
 > Hi, I'm **Surya Hadini .S**
 
 > Live In **West Java, Indonesia**
@@ -15,7 +16,7 @@
 
 > Understand **Bahasa Indonesia, Sundanese, English**
 
-</div>
+</div></br>
  <img src="./label/usedlang.png" width="320" />
  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=sansxpl&show_icons=true&theme=github_dark&hide_border=true&title_color=FF6E96&hide_title=true&text_color=dee2ff&icon_color=BD93F9&include_all_commits=true&count_private=false&layout=compact"  align=left />
 
