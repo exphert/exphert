@@ -33,7 +33,7 @@
 <img src="./label/githubstats.png" width="320" /></br>
 <img src="https://github-readme-stats.vercel.app/api?username=sansxpl&hide_border=true&hide_title=true&show_icons=true&theme=transparent&title_color=FF6E96&text_color=dee2ff&icon_color=BD93F9" />
 <img src="./label/planet.png" width="320" align=left /></br>
- <img src="https://readme-typing-svg.demolab.com/?lines=First+line+of+text;Second+line+of+text" />
+ <img src="https://i.pinimg.com/originals/fc/65/78/fc6578265b412e61e9857fe2deb27fe7.gif" />
 </div>
 
 
