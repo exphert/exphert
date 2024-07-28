@@ -33,7 +33,7 @@
 <img src="./label/githubstats.png" width="320" /></br>
 <img src="https://github-readme-stats.vercel.app/api?username=sansxpl&hide_border=true&hide_title=true&show_icons=true&theme=transparent&title_color=FF6E96&text_color=dee2ff&icon_color=BD93F9" />
 <img src="./label/planet.png" width="320" align=left /></br>
- <img src="https://i.pinimg.com/originals/68/1a/37/681a375ccdf441842202deab9a146d74.gif" />
+ <img src="https://i.pinimg.com/originals/51/9a/10/519a10f30f71d4053f13d44146a746a1.gif" />
 </div>
 
 
