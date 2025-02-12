@@ -3,9 +3,9 @@
 <div align=left >
 <img src="./label/aboutme.png" width="320" />
  
-> Hi, I'm **Surya Hadini .S**
+> Hi, I'm **SANS**
 
-> Live In **West Java, Indonesia**
+> Live In **IDN**
 
 > Studying **Fullstack Developer, CyberSecurity**
 
@@ -13,7 +13,7 @@
 
 > My Skill **HTML, CSS, JavaScript, PHP, Python, Java, C/C++**
 
-> Understand **Bahasa Indonesia, Sundanese, English**
+> Understand **Bahasa, English**
 
 <img src="./label/usedlang.png" width="320"/></br>
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=exphert&show_icons=true&theme=transparent&hide_border=true&title_color=FF6E96&hide_title=true&text_color=dee2ff&icon_color=BD93F9&include_all_commits=true&count_private=false&layout=compact" align=left />
