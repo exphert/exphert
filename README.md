@@ -37,5 +37,4 @@
 <img src="./label/kali.png" width="337" align=left /></br>
 <img src="https://media1.tenor.com/m/wfBrR397QusAAAAd/cyberpunk-cyberpunk-2077.gif" />
 </div>
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=300&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=435&lines=Nothing is perfect
-              in this world, not even systems." />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=300&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=435&lines=Nothing+is+perfect+in+this+world,+not+even+systems." />
