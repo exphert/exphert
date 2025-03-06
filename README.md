@@ -34,7 +34,7 @@
 <div align=right >
 <img src="./label/githubstats.png" width="320" /></br>
 <img src="https://github-readme-stats.vercel.app/api?username=exphert&hide_border=true&hide_title=true&show_icons=true&theme=transparent&title_color=FF6E96&text_color=dee2ff&icon_color=BD93F9" />
-<img src="./label/planet.png" width="337" align=left /></br>
+<img src="./label/kali.png" width="337" align=left /></br>
 <img src="https://media1.tenor.com/m/wfBrR397QusAAAAd/cyberpunk-cyberpunk-2077.gif" />
 </div>
 <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=300&size=24&pause=1000&color=FF6E96&center=true&vCenter=true&width=435&lines=Make+your+dreams+come+true." />
