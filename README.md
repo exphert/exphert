@@ -1,5 +1,5 @@
 <img src="./label/welcometitle2.png" width="100%" alt="welcome" border="0"/></br>
-<img src="./label/uwu.png" width="337" align=right />
+<img src="./label/bitmap.png" width="337" align=right />
 <div align=left >
 <img src="./label/aboutme.png" width="320" />
  
