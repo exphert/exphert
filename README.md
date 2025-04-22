@@ -15,6 +15,8 @@
 
 > Understand **Bahasa, English**
 
+> [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P11DW1LY)
+
 <img src="./label/usedlang.png" width="320"/></br>
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=exphert&show_icons=true&theme=transparent&hide_border=true&title_color=FFFFFF&hide_title=true&text_color=FFFFFF&icon_color=FFFFFF&include_all_commits=true&count_private=false&layout=compact" align=left />
 
