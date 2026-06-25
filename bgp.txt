@@ -1,0 +1,195 @@
+R1:
+
+#########################################
+# IDENTITY
+#########################################
+
+/system identity set name=R1_Surya_UAS
+
+#########################################
+# INTERFACE
+#########################################
+
+/interface ethernet
+set [find default-name=ether1] name=ETH1-WAN
+set [find default-name=ether2] name=ETH2-ToRouter2
+set [find default-name=ether3] name=ETH3-PC1
+
+#########################################
+# IP ADDRESS
+#########################################
+
+/ip address
+add address=10.35.70.1/24 interface=ETH2-ToRouter2 comment="Link to R2"
+add address=10.35.71.1/24 interface=ETH3-PC1 comment="PC1 Network"
+add address=10.35.72.1/24 interface=wlan1 comment="Hotspot WLAN1"
+
+#########################################
+# WAN DHCP CLIENT
+#########################################
+
+/ip dhcp-client
+add interface=ETH1-WAN disabled=no
+
+#########################################
+# DNS
+#########################################
+
+/ip dns
+set allow-remote-requests=yes servers=8.8.8.8,1.1.1.1
+
+#########################################
+# WIRELESS
+#########################################
+
+/interface wireless
+set [find default-name=wlan1] \
+mode=ap-bridge \
+ssid="surya_uas.net-R1" \
+disabled=no
+
+#########################################
+# DHCP POOL
+#########################################
+
+/ip pool
+add name=pool-pc1 ranges=10.35.71.10-10.35.71.254
+add name=pool-wlan1 ranges=10.35.72.10-10.35.72.254
+
+#########################################
+# DHCP SERVER
+#########################################
+
+/ip dhcp-server
+add name=dhcp-pc1 interface=ETH3-PC1 address-pool=pool-pc1 disabled=no
+add name=dhcp-wlan1 interface=wlan1 address-pool=pool-wlan1 disabled=no
+
+#########################################
+# DHCP NETWORK
+#########################################
+
+/ip dhcp-server network
+add address=10.35.71.0/24 gateway=10.35.71.1 dns-server=10.35.71.1
+add address=10.35.72.0/24 gateway=10.35.72.1 dns-server=10.35.72.1
+
+#########################################
+# NAT INTERNET
+#########################################
+
+/ip firewall nat
+add chain=srcnat out-interface=ETH1-WAN action=masquerade
+
+#########################################
+# BGP ROUTEROS V7
+#########################################
+
+/routing bgp template
+add name=default as=35701 router-id=10.35.70.1
+
+/routing bgp connection
+add name=to-router2 \
+remote.address=10.35.70.2 \
+remote.as=35702 \
+local.role=ebgp \
+templates=default
+
+/routing filter rule
+add chain=bgp-out-r1 rule="if (dst in 10.35.71.0/24) {accept}"
+add chain=bgp-out-r1 rule="if (dst in 10.35.72.0/24) {accept}"
+add chain=bgp-out-r1 rule="if (dst in 10.35.70.0/24) {accept}"
+
+/routing bgp connection
+set [find name=to-router2] output.filter-chain=bgp-out-r1
+
+R2:
+#########################################
+# IDENTITY
+#########################################
+
+/system identity set name=R2_Surya_UAS
+
+#########################################
+# INTERFACE
+#########################################
+
+/interface ethernet
+set [find default-name=ether1] name=ETH1-ToRouter1
+set [find default-name=ether3] name=ETH3-PC2
+
+#########################################
+# IP ADDRESS
+#########################################
+
+/ip address
+add address=10.35.70.2/24 interface=ETH1-ToRouter1 comment="Link to R1"
+add address=10.35.73.1/24 interface=ETH3-PC2 comment="PC2 Network"
+add address=10.35.74.1/24 interface=wlan1 comment="Hotspot WLAN2"
+
+#########################################
+# DNS
+#########################################
+
+/ip dns
+set allow-remote-requests=yes servers=8.8.8.8,1.1.1.1
+
+#########################################
+# WIRELESS
+#########################################
+
+/interface wireless
+set [find default-name=wlan1] \
+mode=ap-bridge \
+ssid="surya_uas.net-R2" \
+disabled=no
+
+#########################################
+# DHCP POOL
+#########################################
+
+/ip pool
+add name=pool-pc2 ranges=10.35.73.10-10.35.73.254
+add name=pool-wlan2 ranges=10.35.74.10-10.35.74.254
+
+#########################################
+# DHCP SERVER
+#########################################
+
+/ip dhcp-server
+add name=dhcp-pc2 interface=ETH3-PC2 address-pool=pool-pc2 disabled=no
+add name=dhcp-wlan2 interface=wlan1 address-pool=pool-wlan2 disabled=no
+
+#########################################
+# DHCP NETWORK
+#########################################
+
+/ip dhcp-server network
+add address=10.35.73.0/24 gateway=10.35.73.1 dns-server=10.35.73.1
+add address=10.35.74.0/24 gateway=10.35.74.1 dns-server=10.35.74.1
+
+#########################################
+# DEFAULT ROUTE
+#########################################
+
+/ip route
+add dst-address=0.0.0.0/0 gateway=10.35.70.1
+
+#########################################
+# BGP ROUTEROS V7
+#########################################
+
+/routing bgp template
+add name=default as=35702 router-id=10.35.70.2
+
+/routing bgp connection
+add name=to-router1 \
+remote.address=10.35.70.1 \
+remote.as=35701 \
+local.role=ebgp \
+templates=default
+
+/routing filter rule
+add chain=bgp-out-r2 rule="if (dst in 10.35.73.0/24) {accept}"
+add chain=bgp-out-r2 rule="if (dst in 10.35.74.0/24) {accept}"
+
+/routing bgp connection
+set [find name=to-router1] output.filter-chain=bgp-out-r2
