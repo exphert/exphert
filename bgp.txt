@@ -80,6 +80,28 @@ add address=10.35.72.0/24 gateway=10.35.72.1 dns-server=10.35.72.1
 add chain=srcnat out-interface=ETH1-WAN action=masquerade
 
 #########################################
+# BGP V6 - ROUTER 1
+#########################################
+
+/routing bgp instance
+set default as=35701 router-id=10.35.70.1
+
+/routing bgp peer
+add name=to-router2 \
+remote-address=10.35.70.2 \
+remote-as=35702 \
+instance=default
+
+#########################################
+# ADVERTISE NETWORK
+#########################################
+
+/routing bgp network
+add network=10.35.70.0/24
+add network=10.35.71.0/24
+add network=10.35.72.0/24
+
+#########################################
 # BGP ROUTEROS V7
 #########################################
 
@@ -172,6 +194,27 @@ add address=10.35.74.0/24 gateway=10.35.74.1 dns-server=10.35.74.1
 
 /ip route
 add dst-address=0.0.0.0/0 gateway=10.35.70.1
+
+#########################################
+# BGP V6 - ROUTER 2
+#########################################
+
+/routing bgp instance
+set default as=35702 router-id=10.35.70.2
+
+/routing bgp peer
+add name=to-router1 \
+remote-address=10.35.70.1 \
+remote-as=35701 \
+instance=default
+
+#########################################
+# ADVERTISE NETWORK
+#########################################
+
+/routing bgp network
+add network=10.35.73.0/24
+add network=10.35.74.0/24
 
 #########################################
 # BGP ROUTEROS V7
